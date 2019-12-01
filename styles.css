@@ -1,17 +1,32 @@
-* {
-  margin:0px;
-  padding:0px;
-}
-
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+body{
+  margin: auto;
 }
 
 p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  font-size: 30px;
+}
+#container{
+
+  width: 80vh;
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  text-align: center;
+}
+
+/* use percentage here to follow the parent */
+.box{
+  box-sizing: border-box;
+  height: 33%; 
+  width: 33%;
+ border: 1px solid black;
+ font-size: 20vh;
+ text-align: center;
+}
+
+#result-box{
+  margin: 5px solid black; 
+  /* background-color: blue; */
+  text-align: center;
 }
